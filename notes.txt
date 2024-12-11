@@ -1,0 +1,34 @@
+https://github.com/lvgalvao/DataProjectStarterKit
+
+Primeiro passo
+1 - Escolher a versao do python
+python --version
+
+usar pyenv, tutorial para instalar
+https://medium.com/@adarsh.mallandur/how-to-install-pyenv-on-windows-2023-82b4934628bc
+
+obs: o python se responsabiliza ate 3 versoes para tras, a partir disso nao tem mais suporte. Entao use sempre versoes atuais
+
+Usar o pyenv para gerenciamento de versao do python
+pyenv --version
+
+pyenv install 3.11.5
+pyenv local 3.11.5
+
+obs: quando uma lib python e instalada global ela fica no sitepackages, para verificar usar 
+import site
+print(site.getsitepackages())
+
+
+2 - Poetry 
+
+Gerenciamento de dependencias e pastas
+
+poetry new venv // cria ambiente virtual
+
+entrar na pasta do projeto 
+poetry env use 3.11.5
+poetry shell
+
+para instalar um pacote usar o poetry
+poetry add pandas
