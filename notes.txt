@@ -32,3 +32,19 @@ poetry shell
 
 para instalar um pacote usar o poetry
 poetry add pandas
+
+3 - Git
+adicionar readme
+adicionar gitignore
+
+git branch -M nova-branch
+
+4 - criar pastas 
+
+app
+
+5 - Codar
+
+libs 
+os para manipular arquivos e pastas
+glob para listar arquivos
